@@ -1,0 +1,44 @@
+
+body{
+	overflow: hidden;
+	background: aliceblue;
+   	background-size: 100%;
+}
+#flipBook{
+	width: 800px;
+	height: 500px;
+	margin: 5% auto;
+}
+.front{
+	background: url("photos/butterflies-1127666_640.jpg");
+}
+.second{
+	background: url("photos/fantasy-2049567_640.jpg");
+}
+.third{
+	background: url("photos/swallowtail-butterfly-7960262_640.jpg");
+}
+.fourth{
+	background: url("photos/flowers-19830_640.jpg");
+}
+.fifth{
+	background: url("photos/flower.jpg");
+}
+.last{
+	background: url("photos/colourfulFlower.jpg");
+}
+.main{
+	background: url("photos/rose.jpg");
+
+}
+.pageHeading{
+	color:#fff;
+	text-align: center;
+}
+.pages{
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	/*background: antiquewhite;*/
+}
+
