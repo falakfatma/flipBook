@@ -5,38 +5,49 @@ body{
    	background-size: 100%;
 }
 #flipBook{
-	width: 800px;
-	height: 500px;
+	width: 1000px;
+	height: 600px;
 	margin: 5% auto;
 }
 .front{
-	background: url("photos/butterflies-1127666_640.jpg");
+	background: url("image/chocolate_biscut.webp");
 }
 .second{
-	background: url("photos/fantasy-2049567_640.jpg");
+	background: url("image/ColdIceCream.webp");
 }
 .third{
-	background: url("photos/swallowtail-butterfly-7960262_640.jpg");
+	background: url("image/Momos.jpg");
 }
 .fourth{
-	background: url("photos/flowers-19830_640.jpg");
+	background: url("image/Dumpling.jpg");
 }
 .fifth{
-	background: url("photos/flower.jpg");
+	background: url("image/pasta.jpg");
 }
 .last{
-	background: url("photos/colourfulFlower.jpg");
+	background: url("image/fish.jpg");
 }
 .main{
-	background: url("photos/rose.jpg");
-
+	   background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('image/waiter.png');
+    background-color: white;
+}
+.end{
+	background: white;
 }
 .pageHeading{
-	color:#fff;
-	text-align: center;
+	color: #6f0d0d;
+    /* text-align: center; */
+    font-size: xxx-large;
+    -webkit-text-stroke-width: medium;
+    font-variant: small-caps;
+    -webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
 }
 .pages{
-	background-position: center;
+	/*background-position: center;*/
     background-size: cover;
     background-repeat: no-repeat;
 	/*background: antiquewhite;*/
